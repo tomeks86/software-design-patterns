@@ -37,4 +37,48 @@ public class Person {
         else System.out.print("doesn't have a home");
         System.out.println();
     }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getMiddleName() {
+        return middleName;
+    }
+
+    public String getSituation() {
+        return situation;
+    }
+
+    public String getSuffix() {
+        return suffix;
+    }
+
+    public String getStreetAddress() {
+        return streetAddress;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public String getState() {
+        return state;
+    }
+
+    public boolean isFemale() {
+        return isFemale;
+    }
+
+    public boolean isEmployed() {
+        return isEmployed;
+    }
+
+    public boolean isHomeOwner() {
+        return isHomeOwner;
+    }
 }
