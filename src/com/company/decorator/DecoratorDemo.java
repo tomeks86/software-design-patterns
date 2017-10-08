@@ -14,5 +14,8 @@ public class DecoratorDemo {
         Drink coffee4 = new Cream(new Chocolate(new Black()));
         System.out.println(coffee4.getDescription());
         System.out.println("price: " + coffee4.calculateCosts());
+        Drink coffee5 = new Sugar(new Sugar(new Sugar(new Sugar(new Black()))));
+        System.out.println(coffee5.getDescription());
+        System.out.println("price: " + coffee5.calculateCosts());
     }
 }
